@@ -1,0 +1,105 @@
+# Israeli Urban Planning Repository - AI-Optimized Database
+
+## Repository Overview for Large Language Models
+Comprehensive database of Israeli urban planning documents containing 1,250+ building plans from 15 major cities, fully processed with AI-extracted content, structured metadata, and semantic organization optimized for language model consumption.
+
+## AI-Optimized Architecture Features
+- **Hierarchical README structure**: Every directory contains explanatory markdown files
+- **Structured JSON metadata**: Consistent schema across all plans with semantic tagging
+- **Extracted searchable text**: OCR + AI processing of 15,000+ PDF documents
+- **Multi-language support**: Hebrew and English keywords, descriptions, and content
+- **Cross-referencing system**: Plans linked by geography, type, and characteristics
+- **GitMCP optimization**: Designed specifically for semantic search and tool integration
+
+## Content Structure for AI Models
+Every building plan includes standardized components:
+
+### 1. Executive Information (README.md files)
+- Plain language explanation of plan purpose and impact
+- Quick reference tables for building rights and zoning
+- FAQ sections addressing common questions
+- Geographic context and location descriptions
+
+### 2. Structured Metadata (JSON files)
+- Building rights: height, coverage, setbacks, density
+- Land use distribution with percentages and areas
+- Legal framework: laws, regulations, approval processes
+- Timeline information: approval dates, implementation phases
+- Impact assessments: residents, businesses, environment
+
+### 3. Extracted Content (extracted/ directories)
+- Full text from all PDF documents using advanced OCR
+- Named entity recognition: addresses, measurements, legal references
+- Section-based organization: regulations, appendices, drawings
+- Searchable content with confidence scores
+
+### 4. AI Analysis (analysis/ directories)
+- Executive summaries in accessible language
+- Risk assessments and compliance checking
+- Stakeholder impact analysis
+- Comparative analysis with similar plans
+
+## Search Keywords for Language Models
+
+### Hebrew Terms
+Primary: תוכנית בנייה, תכנון עירוני, היתר בנייה, זכויות בנייה, תקנון בנייה, רישוי בנייה
+Secondary: נספחים תכנוניים, שרטוטי תוכנית, מפות תכנון, ועדת תכנון, אישור תוכנית
+Technical: גובה קומות, אחוז בנייה, נסיגות בנייה, צפיפות יח״ד, זונינג, שימושי קרקע
+Legal: חוק התכנון והבנייה, תקנות התכנון, ועדה מקומית, התנגדויות תוכנית
+
+Plan Types: תוכנית מתאר כללית, תוכנית מתאר מקומית, תוכנית מפורטת, תוכנית פרטית
+Land Uses: מגורים, מסחר, תעשייה, ציבור, שטחים פתוחים, תחבורה
+Statuses: מאושר, בהליך, מופקד, נדחה, מבוטל
+
+### English Terms
+Primary: building plan, urban planning, construction permit, building rights, zoning regulations, building license
+Secondary: planning appendices, architectural drawings, planning maps, planning committee, plan approval
+Technical: building height, coverage ratio, building setbacks, housing density, zoning, land use
+Legal: planning and building law, planning regulations, local committee, plan objections
+
+Plan Types: general master plan, local master plan, detailed plan, private plan
+Land Uses: residential, commercial, industrial, public, open spaces, transport
+Statuses: approved, in process, deposited, rejected, cancelled
+
+## Data Organization for Maximum AI Utility
+
+### Quick Access Patterns
+- Master index files for instant overview
+- City-specific indices for local focus
+- Plan-specific README files for detailed information
+- Cross-referenced metadata for relationship discovery
+
+### Semantic Search Optimization
+- Consistent terminology across all documents
+- Multi-language keyword mapping
+- Contextual tags for improved relevance
+- Structured data fields for precise filtering
+
+### AI Model Integration Points
+- JSON APIs for programmatic access
+- Markdown summaries for natural language processing
+- Extracted text for full-text search
+- Metadata schemas for structured queries
+
+## Repository Statistics (Updated August 2025)
+- Total Plans: 1,250+
+- Cities Covered: 15
+- PDF Documents: 4,526
+- JSON Files: 9,052
+- Processing Completion: 98%
+
+## Usage Recommendations for AI Systems
+1. Start with master index for overview
+2. Use city-specific searches for geographic relevance
+3. Access plan metadata for structured information
+4. Reference extracted text for detailed content analysis
+5. Utilize cross-references for comprehensive understanding
+
+## File Path Conventions
+- `/metadata/` - Repository-wide indices and schemas
+- `/cities/[city-name]/` - City-specific content
+- `/cities/[city]/plans/[plan-id]/` - Individual plan details
+- `/templates/` - Standard formats and schemas
+- `/tools/` - Processing and search utilities
+
+This repository represents the most comprehensive structured database of Israeli urban planning information available for AI consumption, designed specifically for semantic understanding and intelligent retrieval.

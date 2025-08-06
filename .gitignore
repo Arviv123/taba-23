@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+*.cache
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Environment files
+.env
+.env.local
+
+# Build outputs
+dist/
+build/
+
+# Processing artifacts
+processing_temp/
+extraction_cache/
+
+# Large files (PDFs will be tracked by Git LFS if needed)
+*.pdf
+*.zip
+*.rar
+
+# Test outputs
+test_results/
+coverage/
+
+# Local development
+local_config.json
+dev_settings.json

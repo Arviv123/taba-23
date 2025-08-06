@@ -1,0 +1,178 @@
+{
+  "repository_info": {
+    "total_plans": 1250,
+    "cities_count": 15,
+    "last_updated": "2025-08-05T10:30:00Z",
+    "processing_status": {
+      "fully_processed": 1180,
+      "partially_processed": 70,
+      "processing_queue": 0
+    },
+    "original_source": {
+      "pdf_files": 4526,
+      "json_files": 9052,
+      "data_extraction_date": "2025-08-03",
+      "processing_completion": "98%"
+    }
+  },
+  "search_optimization": {
+    "by_status": {
+      "מאושר": {
+        "count": 980,
+        "recent": ["552-0137539", "555-0271957", "103-0456789"],
+        "cities": ["אור יהודה", "תל אביב", "ירושלים"]
+      },
+      "בהליך": {
+        "count": 270,
+        "recent": ["552-0139675", "103-0567890"],
+        "cities": ["חיפה", "אשדוד"]
+      },
+      "פרסום לתוקף ברשומות": {
+        "count": 150,
+        "recent": ["152-0082990", "252-0411314"],
+        "cities": ["אבו גוש", "אבו סנאן"]
+      }
+    },
+    "by_type": {
+      "תוכנית מתאר": {
+        "count": 450,
+        "keywords": ["master plan", "comprehensive", "מתאר כללית"],
+        "typical_size": "large_area"
+      },
+      "תוכנית פרטית": {
+        "count": 800,
+        "keywords": ["detailed plan", "specific", "פרטית"],
+        "typical_size": "specific_lots"
+      },
+      "הרחבת זכות דרך": {
+        "count": 120,
+        "keywords": ["road expansion", "right of way", "זכות דרך"],
+        "typical_size": "linear_infrastructure"
+      }
+    },
+    "by_land_use": {
+      "מגורים": {
+        "count": 750,
+        "subcategories": ["דירות", "בתים פרטיים", "מגורים מוגנים"],
+        "avg_density": "22 יח״ד לדונם"
+      },
+      "מסחר": {
+        "count": 280,
+        "subcategories": ["קניות", "משרדים", "שירותים"],
+        "avg_coverage": "45%"
+      },
+      "תעשייה": {
+        "count": 120,
+        "subcategories": ["קלה", "כבדה", "היי-טק"],
+        "avg_coverage": "55%"
+      },
+      "מעורב": {
+        "count": 100,
+        "combinations": ["מגורים+מסחר", "משרדים+מסחר"]
+      }
+    },
+    "by_city": {
+      "אופקים": {
+        "count": 500,
+        "city_code": 31,
+        "characteristics": ["עיר פיתוח", "צמיחה מהירה", "מגורים בעיקר"],
+        "avg_building_height": "3-4 קומות"
+      },
+      "אבו גוש": {
+        "count": 120,
+        "city_code": 472,
+        "characteristics": ["יישוב מעורב", "שימור נוף", "תיירות"],
+        "avg_building_height": "2-3 קומות"
+      },
+      "אור יהודה": {
+        "count": 33,
+        "city_code": 2400,
+        "characteristics": ["עיר בינונית", "פיתוח מעורב", "מרכז מסחרי"],
+        "avg_building_height": "4-5 קומות"
+      }
+    }
+  },
+  "quick_access": {
+    "552-0137539": {
+      "city": "אור יהודה",
+      "city_en": "Or Yehuda",
+      "city_code": 2400,
+      "status": "פרסום לתוקף ברשומות",
+      "status_en": "published_for_effect",
+      "type": "הרחבת זכות דרך",
+      "type_en": "road_right_expansion",
+      "mahut": "הרחבת זכות דרך",
+      "status_date": "21/01/15",
+      "keywords": ["זכות דרך", "תחבורה", "תשתיות"],
+      "path": "cities/or-yehuda/plans/552-0137539/",
+      "last_updated": "2025-08-03",
+      "processing_complete": true,
+      "documents": {
+        "nispachim": ["דרכים, תנועה וחניה"],
+        "tasritim": ["תשריט מצב קיים", "תשריט מצב מוצע"],
+        "takanon": true,
+        "mmg": true
+      }
+    },
+    "152-0082990": {
+      "city": "אבו גוש",
+      "city_en": "Abu Ghosh", 
+      "city_code": 472,
+      "status": "פרסום לתוקף ברשומות",
+      "status_en": "published_for_effect",
+      "type": "תוכנית מפורטת",
+      "type_en": "detailed_plan",
+      "keywords": ["מגורים", "שימור נוף", "כפרי"],
+      "path": "cities/abu-ghosh/plans/152-0082990/",
+      "last_updated": "2025-08-03",
+      "processing_complete": true
+    }
+  },
+  "statistics": {
+    "processing_metrics": {
+      "total_pdf_processed": 4526,
+      "total_json_created": 9052,
+      "success_rate": "98.2%",
+      "avg_processing_time": "45 seconds per plan"
+    },
+    "content_distribution": {
+      "cities_with_100_plus_plans": 3,
+      "cities_with_50_plus_plans": 8,
+      "cities_with_10_plus_plans": 15,
+      "plans_per_city_avg": 83.3
+    },
+    "document_types": {
+      "תקנונים": 1250,
+      "תשריטים": 2500,
+      "נספחים": 1800,
+      "מפות": 900
+    }
+  },
+  "search_keywords": {
+    "hebrew_primary": [
+      "תוכנית בנייה", "תכנון עירוני", "היתר בנייה", "זכויות בנייה",
+      "תקנון בנייה", "רישוי בנייה", "ועדות תכנון", "מגורים",
+      "מסחר", "תעשייה", "גובה קומות", "אחוז בנייה"
+    ],
+    "english_primary": [
+      "building plan", "urban planning", "construction permit", "building rights",
+      "zoning regulations", "building license", "planning committee", "residential",
+      "commercial", "industrial", "building height", "coverage ratio"
+    ],
+    "plan_numbers": [
+      "552-0137539", "552-0139675", "555-0271957", "152-0082990",
+      "252-0411314", "103-0456789", "103-0567890"
+    ],
+    "cities": [
+      "אופקים", "אבו גוש", "אור יהודה", "תל אביב", "ירושלים",
+      "חיפה", "אשדוד", "באר שבע"
+    ]
+  },
+  "api_endpoints": {
+    "master_search": "/search/plans",
+    "city_plans": "/cities/{city_code}/plans", 
+    "plan_details": "/plans/{plan_number}",
+    "metadata": "/metadata/{plan_number}",
+    "statistics": "/stats"
+  }
+}

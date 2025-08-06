@@ -1,0 +1,57 @@
+{
+  "name": "israeli-planning-repository",
+  "version": "1.0.0",
+  "description": "Comprehensive database of Israeli urban planning documents with AI-optimized structure",
+  "main": "tools/search_api.js",
+  "scripts": {
+    "search": "node tools/search_api.js",
+    "process-data": "python tools/data_processor.py",
+    "validate": "python tools/validation_tools.py",
+    "serve": "python -m http.server 8000",
+    "test": "echo \"Tests will be added in future versions\" && exit 0"
+  },
+  "keywords": [
+    "urban-planning",
+    "israel",
+    "building-plans",
+    "zoning",
+    "construction-permits",
+    "gitMCP",
+    "AI-optimized",
+    "semantic-search"
+  ],
+  "author": {
+    "name": "Israeli Planning Repository Team"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/your-username/israeli-planning-repository.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/your-username/israeli-planning-repository/issues"
+  },
+  "homepage": "https://gitlab.com/your-username/israeli-planning-repository#readme",
+  "engines": {
+    "node": ">=14.0.0",
+    "python": ">=3.8.0"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "gitMCP": {
+    "optimized": true,
+    "searchable": true,
+    "hierarchical": true,
+    "multilingual": ["hebrew", "english"]
+  },
+  "planning_data": {
+    "total_plans": 1250,
+    "cities_count": 15,
+    "processing_date": "2025-08-03",
+    "data_sources": [
+      "Israeli Planning System (Taba)",
+      "Ministry of Interior",
+      "Local Planning Committees"
+    ]
+  }
+}

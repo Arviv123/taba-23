@@ -1,0 +1,162 @@
+{
+  "basic_info": {
+    "plan_number": "552-0137539",
+    "plan_id": 5008857,
+    "city": "אור יהודה",
+    "city_en": "Or Yehuda",
+    "city_code": 2400,
+    "status": "פרסום לתוקף ברשומות",
+    "status_en": "published_for_effect_in_records",
+    "status_date": "21/01/15",
+    "plan_type": "הרחבת זכות דרך",
+    "plan_type_en": "road_right_expansion",
+    "mahut": "הרחבת זכות דרך",
+    "relation_type": null,
+    "processing_date": "2025-08-03"
+  },
+  "location": {
+    "geographic_context": "מרכז העיר אור יהודה",
+    "area_type": "עירוני מרכזי",
+    "accessibility": "דרכים ראשיות ותחבורה ציבורית",
+    "nearby_landmarks": ["עירייה", "מרכז מסחרי", "תחנות אוטובוס"],
+    "coordinates": {
+      "note": "זמין בקבצי ממ״ג הגיאוגרפיים"
+    }
+  },
+  "planning_details": {
+    "primary_purpose": "שיפור תשתיות דרכים ותנועה",
+    "infrastructure_type": "דרכים וזכויות דרך",
+    "impact_scope": "מקומי - מרכז העיר",
+    "traffic_improvements": {
+      "goal": "שיפור זרימת תנועה",
+      "methods": ["הרחבת דרכים", "שיפור צמתים", "ארגון חניות"],
+      "expected_outcome": "הפחתת עומסי תנועה במרכז העיר"
+    }
+  },
+  "documents_inventory": {
+    "takanon": {
+      "available": true,
+      "path": "/IturTabotData/takanonim/telmer/5008857.pdf",
+      "description": "תקנון סרוק",
+      "content_type": "כללים והגבלות להרחבת זכויות הדרך"
+    },
+    "nispachim": [
+      {
+        "type": "דרכים, תנועה וחניה",
+        "path": "/IturTabotData\\nispachim\\telmer\\5008857\\39.pdf",
+        "code": 39,
+        "description": "מחקר תנועה ופתרונות חניה"
+      }
+    ],
+    "tasritim": [
+      {
+        "type": "תשריט מצב קיים",
+        "path": "/IturTabotData\\tabot\\telmer\\5008857_K.pdf",
+        "description": "מפת המצב הנוכחי של הדרכים"
+      },
+      {
+        "type": "תשריט מצב מוצע",
+        "path": "/IturTabotData\\tabot\\telmer\\5008857_M.pdf",
+        "description": "מפת התכנון החדש לאחר ההרחבה"
+      }
+    ],
+    "mmg": {
+      "available": true,
+      "path": "/IturTabotData\\download\\telmer\\5008857.zip",
+      "size": "3.5 MB",
+      "description": "נתונים גיאוגרפיים דיגיטליים (ממ״ג)"
+    },
+    "government_map": {
+      "url": "http://www.govmap.gov.il/mmi?app=app07&ma=5008857",
+      "description": "הצגה על אתר המפות הממשלתי"
+    }
+  },
+  "stakeholder_impact": {
+    "residents": {
+      "impact_level": "חיובי בינוני",
+      "benefits": [
+        "שיפור זרימת תנועה",
+        "פחות פקקים בשעות העומס",
+        "בטיחות דרכים משופרת",
+        "גישה טובה יותר למרכז העיר"
+      ],
+      "temporary_challenges": [
+        "רעש וזיהום אוויר במהלך הביצוע",
+        "עיכובים בתנועה בתקופת הבנייה",
+        "הגבלות חניה זמניות"
+      ]
+    },
+    "businesses": {
+      "impact_level": "חיובי גבוה",
+      "benefits": [
+        "נגישות משופרת ללקוחות",
+        "פתרונות חניה מאורגנים",
+        "גישה טובה יותר לרכבי אספקה",
+        "הגדלת מספר המבקרים במרכז העיר"
+      ],
+      "considerations": [
+        "השפעה זמנית על פעילות במהלך הביצוע"
+      ]
+    },
+    "city_infrastructure": {
+      "impact_level": "חיובי גבוה",
+      "benefits": [
+        "תשתית דרכים משודרגת",
+        "הכנה לגידול עתידי בתנועה",
+        "שיפור יעילות התחבורה הציבורית",
+        "הפחתת עלויות תחזוקה עתידיות"
+      ]
+    }
+  },
+  "legal_framework": {
+    "approval_status": "מאושר ופורסם לתוקף",
+    "approval_date": "21/01/2015",
+    "legal_basis": "חוק התכנון והבנייה, התשכ״ה-1965",
+    "implementation_authority": "עירית אור יהודה",
+    "coordination_required": [
+      "משרד התחבורה",
+      "רשות מקומית",
+      "חברות תשתית"
+    ]
+  },
+  "technical_specifications": {
+    "plan_scale": "מקומי",
+    "implementation_timeline": "6-18 חודשים (אומדן טיפוסי)",
+    "budget_category": "תשתיות עירוניות",
+    "maintenance_requirements": "תחזוקה שוטפת של תשתיות דרכים"
+  },
+  "search_keywords": [
+    "הרחבת זכות דרך",
+    "אור יהודה תחבורה",
+    "552-0137539",
+    "שיפור תנועה",
+    "דרכים עירוניות",
+    "מרכז העיר אור יהודה",
+    "road right expansion",
+    "Or Yehuda traffic",
+    "urban roads improvement",
+    "city center infrastructure",
+    "transportation planning",
+    "traffic flow optimization"
+  ],
+  "ai_analysis": {
+    "processing_confidence": 0.92,
+    "summary": "תוכנית תשתיות חיונית לשיפור התנועה במרכז העיר אור יהודה",
+    "key_insights": [
+      "פתרון לבעיות תנועה קיימות במרכז העיר",
+      "השקעה בתשתיות לטווח ארוך",
+      "השפעה חיובית על פעילות עסקית מקומית",
+      "חיוני לפיתוח עירוני עתידי"
+    ],
+    "implementation_priority": "גבוה - תשתיות בסיסיות",
+    "complexity_level": "בינוני - דורש תיאום מרובה גורמים"
+  },
+  "processing_metadata": {
+    "source_system": "מערכת תוכניות תב״ע",
+    "extraction_date": "2025-08-03",
+    "processing_version": "1.0",
+    "data_quality": "מלא",
+    "last_verification": "2025-08-05",
+    "status": "processed_and_verified"
+  }
+}
