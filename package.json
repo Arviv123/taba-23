@@ -2,8 +2,10 @@
   "name": "israeli-planning-repository",
   "version": "1.0.0",
   "description": "Comprehensive database of Israeli urban planning documents with AI-optimized structure",
-  "main": "tools/search_api.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
     "search": "node tools/search_api.js",
     "process-data": "python tools/data_processor.py",
     "validate": "python tools/validation_tools.py",
@@ -36,8 +38,13 @@
     "node": ">=14.0.0",
     "python": ">=3.8.0"
   },
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
   "gitMCP": {
     "optimized": true,
     "searchable": true,
